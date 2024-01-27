@@ -6,7 +6,7 @@ import org.insurgencedev.insurgencesets.api.addon.InsurgenceSetsAddon;
 import org.insurgencedev.mobkillinggenerator.listeners.MobKillListener;
 
 @ISetsAddon(
-        name = "MobKillingGeneratorAddon", version = "1.0.0", author = "Insurgence Dev", description = "Earn fragments from killing mobs"
+        name = "MobKillingGenerator", version = "1.0.0", author = "Insurgence Dev", description = "Earn fragments from killing mobs"
 )
 public class MobKillingGeneratorAddon extends InsurgenceSetsAddon {
 

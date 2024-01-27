@@ -54,7 +54,7 @@ public class MobKillingGenerator extends FragmentGenerator {
     private int getAmount(Player player, SerializedMap map) {
         int defaultAmount = map.getInteger("Amount_To_Give");
         boolean isDynamic = map.getBoolean("Dynamic_Amount", false);
-        Integer i = GeneratorConfig.mobFragmentAmounts.get(MobKillListener.KillCache.get(player).name());
+        Integer i = GeneratorConfig.mobFragmentAmounts.get(MobKillListener.KillCache.get(player).name().toLowerCase());
 
         return isDynamic && i != null ? i : defaultAmount;
     }
